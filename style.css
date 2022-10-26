@@ -6,6 +6,7 @@ Common
 
 body{
     font-family: "monospace", sans-serif;
+
 }
 
 .font-primary{
@@ -15,4 +16,55 @@ body{
 .title-icon{
     font-size: 20px;
     font-weight: bold;
+}
+/***********
+
+About
+
+************/
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;   
+}
+
+#about .name{
+    font-size: 20px;
+}
+
+#about .vocation{
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 10px;
+}
+div#About {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold; 
+}
+
+#about .skills{
+    font-size: 14px;
+    color: darkgoldenrod;
+    margin-bottom: 10px;
+}
+
+#about .email{
+    margin-top: 14px;
+    font-size: 30px;
+}
+
+#about .icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a{
+    color: darkgray;
 }
